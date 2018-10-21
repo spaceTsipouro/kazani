@@ -4,8 +4,11 @@ A reasonable starting point for the title:
 -  We train an Variational Autoencoder to fractal Images for having fractal features
 -  We wanted to use these features in order the way deep dream does in order to enchance the "fractality" feature of any image.
 
-Requirements:
-Scipy, numpy, tensorflow
+##Requirements:
+
+- Scipy 
+- Numpy
+- Tensorflow
 
 ## Usage:
 
