@@ -7,7 +7,7 @@ A reasonable starting point for the title:
 Requirements:
 Scipy, numpy, tensorflow
 
-Usage:
+## Usage:
 
 To measure how chaotic an image is:
 ```
