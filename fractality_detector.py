@@ -1,3 +1,4 @@
+import sys
 import numpy as np
 import scipy.stats as stats
 # box [xmin,ymin,xmax,ymax]
@@ -80,3 +81,9 @@ def self_similariy(im_input, depth=8):
 def chaotic_measure(im_input):
   D = self_similariy(im_input)
   return max(abs(np.ceil(D) - D), D - np.floor(D))
+
+if __name__ == "__main__":
+  if len(sys.argv) == 2:
+    INPUT_FILE =  sys.argv[1]
+    # How chaotic!!! :P
+    print(chaotic_measure(INPUT_FILE))
